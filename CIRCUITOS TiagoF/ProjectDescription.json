@@ -1,0 +1,152 @@
+{
+  "ProjectName": "CIRCUITOS TiagoF",
+  "DLSVersion_LastSaved": "2.1.4",
+  "DLSVersion_EarliestCompatible": "2.0.0",
+  "CreationTime": "2025-04-22T19:45:00.701-03:00",
+  "LastSaveTime": "2025-10-21T17:37:09.877-03:00",
+  "Prefs_MainPinNamesDisplayMode": 0,
+  "Prefs_ChipPinNamesDisplayMode": 1,
+  "Prefs_GridDisplayMode": 1,
+  "Prefs_Snapping": 2,
+  "Prefs_StraightWires": 2,
+  "Prefs_SimPaused": false,
+  "Prefs_SimTargetStepsPerSecond": 1000,
+  "Prefs_SimStepsPerClockTick": 250,
+  "AllCustomChipNames":[
+    "NOT",
+    "OR",
+    "AND",
+    "NOR",
+    "XOR",
+    "XNOR",
+    "4-AND",
+    "4-OR",
+    "8-OR",
+    "3-AND",
+    "8-DECODER",
+    "8-MUX",
+    "4-NOR",
+    "8-COMPARADOR",
+    "8-DESLOCADOR",
+    "HALF ADDER",
+    "FULL ADDER",
+    "S-R LATCH",
+    "GATED S-R LATCH",
+    "D-LATCH",
+    "REGISTRADOR 4-BITS",
+    "REGISTRADOR 8-BITS",
+    "A SEGMENT",
+    "3-OR",
+    "B SEGMENT",
+    "C SEGMENT",
+    "D SEGMENT",
+    "E SEGMENT",
+    "F SEGMENT",
+    "G SEGMENT",
+    "DISPLAY 7-SEG",
+    "S-R FLIP-FLOP",
+    "D-FLIP-FLOP",
+    "J-K FLIP-FLOP",
+    "MEN-1",
+    "DECODER 2-4",
+    "Men - 16 certo",
+    "Men - 256"
+  ],
+  "StarredList":[
+    {
+      "Name":"IN/OUT",
+      "IsCollection":true
+    },
+    {
+      "Name":"MERGE/SPLIT",
+      "IsCollection":true
+    },
+    {
+      "Name":"LOGIC GATES",
+      "IsCollection":true
+    },
+    {
+      "Name":"BUS",
+      "IsCollection":true
+    },
+    {
+      "Name":"LOGIC CIRCUITS",
+      "IsCollection":true
+    },
+    {
+      "Name":"7 SEGMENTS",
+      "IsCollection":true
+    },
+    {
+      "Name":"MEN",
+      "IsCollection":true
+    }
+  ],
+  "ChipCollections":[
+    {
+      "Chips":["CLOCK","KEY","3-STATE BUFFER"],
+      "IsToggledOpen":false,
+      "Name":"BASIC"
+    },
+    {
+      "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8"],
+      "IsToggledOpen":false,
+      "Name":"IN/OUT"
+    },
+    {
+      "Chips":["1-4BIT","1-8BIT","4-8BIT","4-1BIT","8-4BIT","8-1BIT"],
+      "IsToggledOpen":false,
+      "Name":"MERGE/SPLIT"
+    },
+    {
+      "Chips":["BUS-1","BUS-4","BUS-8"],
+      "IsToggledOpen":false,
+      "Name":"BUS"
+    },
+    {
+      "Chips":["7-SEGMENT","DOT DISPLAY","RGB DISPLAY"],
+      "IsToggledOpen":false,
+      "Name":"DISPLAY"
+    },
+    {
+      "Chips":["ROM 256×16"],
+      "IsToggledOpen":false,
+      "Name":"MEMORY"
+    },
+    {
+      "Chips":["3-OR","4-AND","4-OR","8-OR","3-AND","4-NOR","PULSE","LED","BUZZER"],
+      "IsToggledOpen":true,
+      "Name":"OTHER"
+    },
+    {
+      "Chips":["DISPLAY 7-SEG","G SEGMENT","F SEGMENT","E SEGMENT","D SEGMENT","C SEGMENT","B SEGMENT","A SEGMENT"],
+      "IsToggledOpen":false,
+      "Name":"7 SEGMENTS"
+    },
+    {
+      "Chips":["AND","NOT","NAND","OR","NOR","XOR","XNOR"],
+      "IsToggledOpen":false,
+      "Name":"LOGIC GATES"
+    },
+    {
+      "Chips":["8-COMPARADOR","8-DECODER","8-MUX"],
+      "IsToggledOpen":false,
+      "Name":"LOGIC CIRCUITS"
+    },
+    {
+      "Chips":["8-DESLOCADOR","HALF ADDER","FULL ADDER"],
+      "IsToggledOpen":false,
+      "Name":"ARITHMETIC CIRCUTIS"
+    },
+    {
+      "Chips":["J-K FLIP-FLOP","D-FLIP-FLOP","S-R FLIP-FLOP","REGISTRADOR 8-BITS","REGISTRADOR 4-BITS","D-LATCH","GATED S-R LATCH","S-R LATCH"],
+      "IsToggledOpen":false,
+      "Name":"FEEDBACK"
+    },
+    {
+      "Chips":["MEN-1","Men - 256","DECODER 2-4","Men - 16 certo"],
+      "IsToggledOpen":true,
+      "Name":"MEN"
+    }
+  ]
+}
